@@ -1,0 +1,26 @@
+.general {
+    padding:20px;
+    background: rgb(238, 237, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box {
+    background: rgba(255, 166, 0, 0.74);
+    box-sizing: border-box;
+    padding: 50px;
+    outline: 1px solid rgb(238, 151, 20);
+}
+.A {
+    padding: 30px;
+}
+.radius {
+    border-radius: 10%;
+}
+.shadow_silver {
+    box-shadow: silver 10px 10px 10px ;
+}
+.shadow_black {
+    box-shadow: black 10px 10px 10px;
+}
