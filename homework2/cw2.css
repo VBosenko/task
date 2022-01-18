@@ -1,0 +1,17 @@
+.box {
+    height: 200px;
+    width: 400px;
+    background: #808080;
+    box-shadow: -20px -20px 20px #e2bb8f;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.block {
+    padding-left: 20px;
+    margin-left: 5px;
+    border-left: 2px solid #ff0034;
+}
+p {
+    margin: 0;
+}
