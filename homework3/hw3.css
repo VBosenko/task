@@ -1,0 +1,32 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#logo {
+    height: 80px;
+    width: 50px;
+    margin: 10px 0 0 10px;
+}
+.hor {
+    display: flex;
+    justify-content: center;
+}
+.hor1 {
+    display: flex;
+}
+#head {
+    margin: 10px;
+}
+#txt {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:200px;
+    margin: 10px;
+}
+body {
+    margin: 0;
+}
