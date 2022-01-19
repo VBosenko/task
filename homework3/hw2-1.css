@@ -40,10 +40,6 @@
     align-items: center;
 }
 p {
-    height: 50px;
+    height: 0;
     width: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
