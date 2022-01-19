@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.A {
+    background: #d9d9d9;
+    height: 100px;
+    width: 604px;
+    margin: 2px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.B {
+    background: #d9d9d9;
+    height: 300px;
+    width: 400px;
+    margin: 2px;
+    border-bottom-left-radius: 6px;
+
+}
+.C {
+    background: #d9d9d9;
+    height: 300px;
+    width: 200px;
+    margin: 2px;
+    border-bottom-right-radius: 6px;
+}
+.general {
+    height: 408px;
+    width: 608px;
+    border: 2px solid #919292;
+    border-radius: 10px;
+}
+
