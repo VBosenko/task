@@ -1,0 +1,33 @@
+.box1 {
+    height: 200px;
+    width: 225px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background: #006bc1;
+}
+.box2 {
+    height: 100px;
+    width: 450px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background: #006bc1;
+}
+.box3 {
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background: #00477f;
+}
+.hor {
+    display: flex;
+}
+p {
+    margin: 0;
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
