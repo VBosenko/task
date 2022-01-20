@@ -1,0 +1,46 @@
+.box1 {
+    height: 80px;
+    width: 200px;
+}
+.circle {
+    height: 60px;
+    width: 60px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 70px;
+}
+img {
+    padding: 10px 10px 10px 10px;
+    height: 40px;
+    width: 40px;
+}
+.box2 {
+    height: 230px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.box3 {
+    height: 80px;
+}
+.box4 {
+    text-align: center;
+}
+.box5 {
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    margin: 20px 0 0 20px;
+    border: 1px solid black;
+    background: white;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hor {
+    display: flex;
+    justify-content: space-evenly;
+}
