@@ -5,7 +5,7 @@
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
 }
-#logo {
+#logo1, #logo2, #logo3, #logo4, #logo5, #logo6 {
     height: 80px;
     width: 50px;
     margin: 10px 0 0 10px;
@@ -17,10 +17,10 @@
 .hor1 {
     display: flex;
 }
-#head {
+#head1, #head2, #head3, #head4, #head5, #head6 {
     margin: 10px;
 }
-#txt {
+#txt1, #txt2, #txt3, #txt4, #txt5, #txt6 {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
