@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Stucture */
+.logo {
+    height: 100px;
+    width: 200px;
+}
+.header {
+    height: 100px;
+    width: 600px;
+}
+.nav {
+    height: 400px;
+    width: 200px;
+}
+.bath {
+    height: 200px;
+    width: 400px;
+}
+.ad {
+    height: 200px;
+    width: 200px;
+}
+.type {
+    height: 400px;
+    width: 400px;
+}
+.related {
+    height: 400px;
+    width: 200px;
+}
+.store {
+    height: 100px;
+    width: 200px;
+}
+.tools {
+    height: 100px;
+    width: 200px;
+}
+.footer {
+    height: 300px;
+    width: 800px;
+}
+/* Color */
+.silver {
+    background: #676767;
+}
+p {
+    color: #ff6a77;
+}
+/* Desktop */
