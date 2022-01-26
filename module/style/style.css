@@ -110,5 +110,21 @@ p {
     border-radius: 4px;
     color: var(--black-color);
     background: none;
-
+}
+/* Rigth img */
+.header_image {
+    position: relative;
+    margin-left: 153px;
+}
+.girl {
+    position: absolute;
+    top: 135px;
+    left: 0;
+    z-index: 1;
+}
+.yellowbox {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    z-index: 0;
 }
