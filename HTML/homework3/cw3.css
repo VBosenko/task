@@ -1,0 +1,57 @@
+.A {
+    height: 100px;
+    width: 400px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.B {
+    height: 100px;
+    width: 300px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.C {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.D {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.E {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.F {
+    height: 200px;
+    width: 100px;
+    background: silver;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+.box {
+    height: 300px;
+    width: 400px;
+    background: snow;
+    border: 5px solid silver;
+    border-radius: 5px;
+}
+.hor {
+    display: flex;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    

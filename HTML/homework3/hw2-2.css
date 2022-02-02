@@ -1,0 +1,49 @@
+.box1 {
+    height: 150px;
+    width: 320px;
+    background: cornflowerblue;
+    margin: 10px;
+    border-radius: 2px;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background: darkblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    background: darkblue;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: darkblue;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.box5 {
+    height: 150px;
+    width: 320px;
+    border: 80px 80px 80px 80px;
+    background: cornflowerblue;
+    margin: 10px;
+    border-radius: 2px;
+}
+.hor {
+    display: flex;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6 {
+    color: white;
+    margin: 0;
+}
