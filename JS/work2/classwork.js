@@ -81,8 +81,10 @@ switch (lottery) {
     case '5':
         console.log('д.')
         break
+    default:
+        console.log('число не вірне')
+        break
+
 }
-if (lottery > 5) {
-    console.log('число не вірне')
-}
+
 
