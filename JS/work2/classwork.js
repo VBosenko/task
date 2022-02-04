@@ -83,8 +83,6 @@ switch (lottery) {
         break
     default:
         console.log('число не вірне')
-        break
-
 }
 
 

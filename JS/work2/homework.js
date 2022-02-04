@@ -27,7 +27,7 @@ if (day >= 1 && day < 11) {
 //     з коротким записом(тернаркою)
 
 let test = true;
-if (test != true) {
+if (test !== true) {
     console.log('Вірне буває тильки кохання =)')
 } else {
     console.log('Неправильно')
@@ -71,6 +71,7 @@ switch (dayOfWeek) {
     case '7':
         console.log('chill')
         break
+    default:
 }
 
 // - Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
