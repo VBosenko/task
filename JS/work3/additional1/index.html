@@ -653,18 +653,15 @@
     //     body:
     for (let i = 0; i < array.length; i++) {
         const arrayElement = array[i];
-        for (let j = 0; j < 5; j++) {
-            const arrayElementElement = arrayElement[j];
-            if (j === 0) {
-                document.write(`<div class="wrap">`)
-            }
-            document.write(`<div class="post-card">`)
-            document.write(`<h3>${arrayElement.userId} - ${arrayElement.title}.</h3><br><p>${arrayElement.body}</p>`)
-            document.write(`</div>`)
-            if (j === 4) {
-                document.write(`</div>`)
-            }
-        }
+        // for (let j = 0; j < 5; j++) {
+        //     const arrayElementElement = arrayElement[j];
+        //     if (j === 0) {
+        //         document.write(`<div class="wrap">`)
+        //     }
+        //     if (j === 4) {
+        //         document.write(`</div>`)
+        //     }
+        // }
     }
 
 
