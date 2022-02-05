@@ -12,7 +12,7 @@
 // let stringArray = ['first', 'two', 'free', 'four', 'five']
 // let randomArray = [1, 2, 3, 'four', 'five', true, false]
 
-//console.log(numberArray)
+// console.log(numberArray)
 // console.log(stringArray)
 // console.log(randomArray)
 
