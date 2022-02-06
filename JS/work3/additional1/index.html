@@ -7,13 +7,15 @@
         body {
             background: #eae8da;
         }
-        .post-card  {
+
+        .post-card {
             margin: 10px;
             text-transform: uppercase;
             background: #e1c19b;
             color: #aa8c6f;
             width: 20%;
         }
+
         .wrap {
             display: flex;
             justify-content: space-between;
@@ -28,14 +30,14 @@
 <!--        <p>BODY</p>-->
 <!--    </div>-->
 
-    <!--
-    ...
-    ...
-    ...
-    other posts
-    -->
+<!--
+...
+...
+...
+other posts
+-->
 
-</div>
+<!--</div>-->
 
 
 <script>
@@ -646,22 +648,25 @@
     ];
 
 
-
     //     userId: 1,
     //     id: 1,
     //     title: 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
     //     body:
+
+    let sum = 0
     for (let i = 0; i < array.length; i++) {
         const arrayElement = array[i];
-        // for (let j = 0; j < 5; j++) {
-        //     const arrayElementElement = arrayElement[j];
-        //     if (j === 0) {
-        //         document.write(`<div class="wrap">`)
-        //     }
-        //     if (j === 4) {
-        //         document.write(`</div>`)
-        //     }
-        // }
+        if (sum === 0) {
+            document.write(`<div class="wrap">`)
+        }
+        sum++
+        document.write(`<div class="post-card">`)
+        document.write(`<h3>${arrayElement.userId} - ${arrayElement.title}.</h3><br><p>${arrayElement.body}</p>`)
+        document.write(`</div>`)
+        if (sum === 5) {
+            document.write(`</div>`)
+            sum = 0
+        }
     }
 
 
