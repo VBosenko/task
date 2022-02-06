@@ -38,14 +38,15 @@ let arrayOne = []
 
 
 // основний масив для завдань 2-4 //
-// let numberMin = 8
-// let numberMax = 732
-//
-// let arrayRandomMax = []
-//
-// for (let i = 0; i < 20; i++) {
-//     arrayRandomMax[i] = Math.floor(Math.random() * (numberMax - numberMin) + numberMin);  //Math.floor тут для зручності
-// }
+
+let numberMin = 8
+let numberMax = 732
+
+let arrayRandomMax = []
+
+for (let i = 0; i < 20; i++) {
+    arrayRandomMax[i] = Math.floor(Math.random() * (numberMax - numberMin) + numberMin);  //Math.floor тут для зручності
+}
 
 // 2. Вивести за допомогою console.log кожен третій елемент
 
@@ -57,11 +58,11 @@ let arrayOne = []
 
 // 3. Вивести за допомогою console.log кожен третій елемент тільки якщо цей елемент є парним.
 
-// for (let i = 0; i < arrayRandomMax.length; i++) {
-//     if (i % 3 === 0) {
-//         console.log(arrayRandomMax[i])
-//     }
-// }
+for (let i = 0; i < arrayRandomMax.length; i++) {
+    if (i % 3 === 0 && arrayRandomMax[i] % 2 ===0) {
+        console.log(arrayRandomMax[i])
+    }
+}
 
 // 4. Вивести за допомогою console.log кожен третій елемент тільки якщо цей елемент є парним та записати їх в новий масив
 
@@ -182,7 +183,7 @@ let arrayOne = []
 // let newArray = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
 //
 // for (let a = 0; a < newArray.length; a++) {
-//     if (newArray[a] % 2 !== 0) {
+//     if (newArray[a] % 2 === 0) {
 //         console.log(newArray[a])
 //     }
 // }
