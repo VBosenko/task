@@ -89,7 +89,7 @@
 
 // let originalArrayAllType = [1, 2, 3, 4, 5, 'six', 'seven', 'eight', 'nine', 'ten', true, false]
 // for (let i = 0; i < originalArrayAllType.length; i++) {
-//     if (typeof (originalArrayAllType[i]) == "boolean") {
+//     if (typeof (originalArrayAllType[i]) === "boolean") {
 //         console.log(originalArrayAllType[i])
 //     }
 // }
@@ -98,7 +98,7 @@
 
 // let originalArrayAllType = [1, 2, 3, 4, 5, 'six', 'seven', 'eight', 'nine', 'ten', true, false]
 // for (let i = 0; i < originalArrayAllType.length; i++) {
-//     if (typeof (originalArrayAllType[i]) == "number") {
+//     if (typeof (originalArrayAllType[i]) === "number") {
 //         console.log(originalArrayAllType[i])
 //     }
 // }
@@ -107,7 +107,7 @@
 
 // let originalArrayAllType = [1, 2, 3, 4, 5, 'six', 'seven', 'eight', 'nine', 'ten', true, false]
 // for (let i = 0; i < originalArrayAllType.length; i++) {
-//     if (typeof (originalArrayAllType[i]) == "string") {
+//     if (typeof (originalArrayAllType[i]) === "string") {
 //         console.log(originalArrayAllType[i])
 //     }
 // }
