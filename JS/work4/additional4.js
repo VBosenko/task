@@ -34,14 +34,17 @@ function returtArray(array1, array2) {
 //   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 
 function objectKeys (...array) {
-    let arrayKeys =[]
+    let arrayKeys = []
+    let iteration = 0
     for (let i = 0; i < array.length; i++) {
         for (let keys in array[i]) { 
-            arrayKeys.keys = keys
+            arrayKeys[iteration] = [keys]
+        iteration++
         }
     }
     return arrayKeys
 }
+
 
 
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
