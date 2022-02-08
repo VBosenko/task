@@ -51,5 +51,15 @@ function objectKeys (...array) {
 //   EXAMPLE:
 //   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 
-
+function objecs(...array) {
+	let arrayKeys = []
+	let iteration = 0
+	for (let i = 0; i < array.length; i++) {
+		for (let keys in array[i]) {
+			arrayKeys[iteration] = array[i][keys]
+			iteration++
+		}
+	}
+	return arrayKeys
+}
 
