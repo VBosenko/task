@@ -1,6 +1,6 @@
 // - створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
 
-function minnumber(a, b ,c) {
+function minNumber(a, b, c) {
     if (a < b && a < c) {
         console.log(a)
     } else if (b < a && b < c) {
@@ -12,7 +12,7 @@ function minnumber(a, b ,c) {
 
 // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
 
-function maxnumber(a, b ,c) {
+function maxNumber(a, b, c) {
     if (a > b && a > c) {
         console.log(a)
     } else if (b > a && b > c) {
@@ -25,25 +25,25 @@ function maxnumber(a, b ,c) {
 // - створити функцію яка повертає найбільше число з масиву
 
 function maxArray(array) {
-    let maxnumber = array[0]
+    let maxNumber = array[0]
     for (let i = 0; i < array.length; i++) {
-        if (array[i] > maxnumber) {
-            maxnumber = array[i]
+        if (array[i] > maxNumber) {
+            maxNumber = array[i]
         }
     }
-    return maxnumber
+    return maxNumber
 }
-  
+
 // - створити функцію яка повертає найменьше число з масиву
 
 function minArray(array) {
-    let minnumber = array[0]
+    let minNumber = array[0]
     for (let i = 0; i < array.length; i++) {
-        if (array[i] < minnumber) {
-            minnumber = array[i]
+        if (array[i] < minNumber) {
+            minNumber = array[i]
         }
     }
-    return minnumber
+    return minNumber
 }
 
 
@@ -83,35 +83,31 @@ function minNumbers(...numbers) {
 
 function randomArray() {
     let newArray = []
-    for (let i = 0; i < 100; i++){
-        newArray[i] = Math.round(Math.random()*100)
+    for (let i = 0; i < 100; i++) {
+        newArray[i] = Math.round(Math.random() * 100)
     }
     console.log(newArray)
     return newArray
 }
 
-
-
-Math.round(Math.random()*100)
-
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
 
-function arrayRandom (limit) {
+function arrayRandom(limit) {
     let newArray = []
-    for (let i = 0; i < limit; i++){
-        newArray[i] = Math.round(Math.random()*100)
+    for (let i = 0; i < limit; i++) {
+        newArray[i] = Math.round(Math.random() * 100)
     }
     return newArray
 }
-
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 
 function invert(array) {
     let newArray = []
-    let itteration = 0
-    for (let i = array.length - 1; i > 0; i--) {
-        newArray[0] = array[i]
+    let iteration = 0
+    for (let i = array.length - 1; i >= 0; i--) {
+        newArray[iteration] = array[i]
+        iteration++
     }
+    return newArray
 }
-
