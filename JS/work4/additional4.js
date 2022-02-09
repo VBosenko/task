@@ -8,6 +8,8 @@ function inputFunction(...numbers) {
     }
 }
 
+inputFunction(1, 2, 3, 4, 5)
+
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 //   EXAMPLE:
 //   [1,2,3,4]
@@ -27,11 +29,13 @@ function returtArray(array1, array2) {
     return arrayNew
 }
 
+returtArray([1,2,3,4], [2,3,4,5])
+
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 //   EXAMPLE:
 //   []  ===> [ name, age, model ]
 
-function objectKeys (...array) {
+function objectKeys(...array) {
     let arrayKeys = []
     let iteration = 0
     for (let i = 0; i < array.length; i++) {
@@ -42,6 +46,8 @@ function objectKeys (...array) {
     }
     return arrayKeys
 }
+
+console.log(objectKeys([{name: 'Dima', age: 13}, {model: 'Camry'}]))
 
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 //   EXAMPLE:
@@ -59,4 +65,4 @@ function objecs(...array) {
 	return arrayKeys
 }
 
-
+console.log(objecs([{name: 'Dima', age: 13}, {model: 'Camry'}]))
