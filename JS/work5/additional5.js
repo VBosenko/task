@@ -88,3 +88,4 @@ let arrFoo = (array) => {
     return array
 }
 
+console.log(arrFoo([0,0,1,0]))
