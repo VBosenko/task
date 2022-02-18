@@ -36,7 +36,7 @@ let stringToArray = (string) => string.split(' ')
 
 // console.log(stringToArray('Каждый охотник желает знать'))
 
-// - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається 
+// - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається
 // із зазначеної кількості символів.
 //     let str = 'Каждый охотник желает знать';
 //     document.writeln(delete_characters(str, 7)); // Каждый
@@ -45,7 +45,7 @@ let delete_characters = (string, i) => string.substring(0, i)
 
 // console.log(delete_characters('Каждый охотник желает знать', 7))
 
-// - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) 
+// - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-)
 // між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
 //    let str = "HTML JavaScript PHP";
 //    document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
@@ -55,7 +55,7 @@ let insert_dash = (string) => string.replaceAll(' ', '-').toUpperCase()
 let str = "HTML JavaScript PHP"
 console.log(insert_dash(str))
 
-// - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка 
+// - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка
 // з нижнього регістру у верхній.
 
 let stringUpFirst = (string) => string.replace(string[0], string[0].toUpperCase())

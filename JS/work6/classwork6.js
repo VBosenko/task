@@ -18,7 +18,7 @@ console.log(normalizeName('Hermione__Granger'))
 let randomArray = (string) => {
     string = []
     for (let i = 0; i < 10; i++) {
-        string[i] = Math.floor(Math.random()*100)
+        string[i] = Math.floor(Math.random() * 100)
     }
     return string
 }
@@ -62,7 +62,7 @@ let sortNums = (nums, direction) => {
     }
 }
 
-console.log(sortNums([11,21,3], 'ascending'))
+console.log(sortNums([11, 21, 3], 'ascending'))
 
 
 // - є масив
