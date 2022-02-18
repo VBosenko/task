@@ -1,4 +1,3 @@
-
 // - Створити клас або функцію конструктор, за допомоги якої можна створювати об'єкти наступного вигляду.
 // Конструктор повинен приймати значення для кожної властивості, в т.ч і для властивостей внутрішніх об'єктів
 
@@ -45,7 +44,7 @@ class Company {
 }
 
 class newUser {
-    constructor(id, name, username, email, street, suite, city, zipcode,lat,lng, phone, website, name1, catchPhrase, bs) {
+    constructor(id, name, username, email, street, suite, city, zipcode, lat, lng, phone, website, name1, catchPhrase, bs) {
         this.id = id
         this.name = name
         this.username = username
@@ -57,22 +56,7 @@ class newUser {
     }
 }
 
-let user = new newUser(
-    1,
-    'Leanne Graham',
-    'Bret',
-    'Sincere@april.biz',
-    'Kulas Light',
-    'Apt. 556',
-    'Gwenborough',
-    '92998-3874',
-    '-37.3159',
-    '81.1496',
-    '1-770-736-8031 x56442',
-    'hildegard.org',
-    'Romaguera-Crona',
-    'Multi-layered client-server neural-net',
-    'harness real-time e-markets')
+let user = new newUser(1, 'Leanne Graham', 'Bret', 'Sincere@april.biz', 'Kulas Light', 'Apt. 556', 'Gwenborough', '92998-3874', '-37.3159', '81.1496', '1-770-736-8031 x56442', 'hildegard.org', 'Romaguera-Crona', 'Multi-layered client-server neural-net', 'harness real-time e-markets')
 
 console.log(user)
 
@@ -107,3 +91,26 @@ console.log(user)
 // ]
 //
 // }
+
+
+class descriptionObject {
+    constructor(title, action, titleOfAttribute, attribute) {
+        this.title = title
+        this.action = action
+        this.attributes = [titleOfAttribute, attribute]
+
+    }
+}
+
+let a = new descriptionObject('<a>', 'Тег <a> является одним из важных элементов HTML и предназначен для ' +
+    'создания ссылок. В зависимости от присутствия атрибутов name или href тег <a> устанавливает ссылку или якорь. ' +
+    'Якорем называется закладка внутри страницы, которую можно указать в качестве цели ссылки. При использовании ссылки,' +
+    ' которая указывает на якорь, происходит переход к закладке внутри веб-страницы.', 'accesskey',
+    'Активация ссылки с помощью комбинации клавиш.')
+
+let div = new descriptionObject('<div>', 'Элемент <div> является блочным элементом и предназначен ' +
+    'для выделения фрагмента документа с целью изменения вида содержимого. Как правило, вид блока управляется с ' +
+    'помощью стилей. Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей, ' +
+    'а для тега добавить атрибут class или id с именем селектора.','align', 'Задает выравнивание' +
+    ' содержимого тега <div>.\n')
+
