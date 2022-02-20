@@ -43,7 +43,7 @@ for (let addClass1 of addClass) {
 
 // g) отримує всі елементи 'a' та у випадку, якщо текстовий контен елементу дорівнює link3, змінює йому розмір тексту на 40 пікселів
 
-let chnageHightText = document.getElementsByTagName(a)
+let chnageHightText = document.getElementsByTagName('a')
 
 for (let chnageHightTextElement of chnageHightText) {
     if (chnageHightTextElement.innerText === 'link3') {
